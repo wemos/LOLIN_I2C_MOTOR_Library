@@ -1,0 +1,46 @@
+#######################################
+# Syntax Coloring Map For DHT12
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+LOLIN_I2C_MOTOR	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+reset	KEYWORD2
+changeAddress	KEYWORD2
+getInfo	KEYWORD2
+changeStatus	KEYWORD2
+changeFreq	KEYWORD2
+changeDuty	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+GET_SLAVE_STATUS	LITERAL1
+RESET_SLAVE	LITERAL1
+CHANGE_I2C_ADDRESS	LITERAL1
+CHANGE_STATUS	LITERAL1
+CHANGE_FREQ	LITERAL1
+CHANGE_DUTY	LITERAL1
+
+MOTOR_STATUS_STOP	LITERAL1
+MOTOR_STATUS_CCW	LITERAL1
+MOTOR_STATUS_CW	LITERAL1
+MOTOR_STATUS_SHORT_BRAKE	LITERAL1
+MOTOR_STATUS_STANDBY	LITERAL1
+
+MOTOR_CH_A=0x00	LITERAL1
+MOTOR_CH_B	LITERAL1
+MOTOR_CH_BOTH	LITERAL1
+
+PRODUCT_ID_I2C_MOTOR	LITERAL1
+DEFAULT_I2C_MOTOR_ADDRESS	LITERAL1
+
+
