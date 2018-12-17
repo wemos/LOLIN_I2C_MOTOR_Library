@@ -11,7 +11,7 @@ void setup()
     Wire.begin();
 
     Serial.begin(115200);
-    delay(3000);
+    // delay(1000);
 }
 
 void loop()
